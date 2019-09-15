@@ -1,0 +1,43 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 406
+  Height = 696
+  Top = 111
+  Width = 800
+  Caption = 'Armador de Mesa de Exámenes by Mauro J. Montenegro'
+  Constraints.MinHeight = 600
+  Constraints.MinWidth = 800
+  Font.Height = -16
+  Font.Name = 'Arial'
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.2.0'
+  object MainMenu1: TMainMenu
+    left = 360
+    top = 48
+    object MenuItem1: TMenuItem
+      Caption = 'Archivo'
+      object MenuItem8: TMenuItem
+        Caption = 'Imprimir listado'
+      end
+      object MenuItem9: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem2: TMenuItem
+        Caption = 'Salir'
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Registrar'
+      object mnuAlumnos: TMenuItem
+        Caption = 'Alumno'
+        OnClick = mnuAlumnosClick
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Docente'
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Asignatura'
+      end
+    end
+  end
+end
