@@ -5,29 +5,40 @@ unit u_conexion;
 interface
 
 uses
-  Classes, SysUtils, db, sqlite3conn, sqldb;
+  Classes, SysUtils, sqlite3conn, sqldb;
 
 type
 
-  { TDataModule1 }
+    { TConexionDatos }
 
-  TDataModule1 = class(TDataModule)
-    DataSource1: TDataSource;
-    SQLite3Connection1: TSQLite3Connection;
-    SQLQuery1: TSQLQuery;
-    SQLTransaction1: TSQLTransaction;
-  private
+    TConexionDatos = class (TDataModule)
+      SQLConexion: TSQLite3Connection;
+      SQLTransaccion: TSQLTransaction;
+      Constructor Create;
+      procedure DataModuleCreate(Sender: TObject);
+      private
+         {Declaraciones privadas}
+      public
+         {Declaraciones públicas}
+    end;
 
-  public
+ implementation
 
-  end;
+   Constructor TConexionDatos.Create;
+    begin
+      SQLConexion.DatabaseName:= 'mesasexamenes.sqlite3';
 
-var
-    modulo_Datos: TDataModule1;
+    end;
 
-implementation
+ var
+      ConexionDatos: TConexionDatos;
 
-{$R *.lfm}
+{ TConexionDatos }
+
+procedure TConexionDatos.DataModuleCreate(Sender: TObject);
+begin
+
+end;
 
 end.
 

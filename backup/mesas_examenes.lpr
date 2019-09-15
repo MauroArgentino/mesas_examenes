@@ -7,7 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, u_frmmesas_examenes;
+  Forms, u_frmmesas_examenes, u_conexion;
 
 {$R *.res}
 

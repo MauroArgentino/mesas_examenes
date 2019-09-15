@@ -4,13 +4,12 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="13">
+    <Units Count="14">
       <Unit0>
         <Filename Value="mesas_examenes.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="5"/>
-        <CursorPos X="36" Y="10"/>
-        <UsageCount Value="69"/>
+        <CursorPos X="40" Y="10"/>
+        <UsageCount Value="70"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -18,7 +17,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="u_Alumno"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="68"/>
+        <UsageCount Value="69"/>
       </Unit1>
       <Unit2>
         <Filename Value="View\u_frmmesas_examenes.pas"/>
@@ -29,7 +28,7 @@
         <EditorIndex Value="1"/>
         <TopLine Value="33"/>
         <CursorPos X="25" Y="48"/>
-        <UsageCount Value="60"/>
+        <UsageCount Value="61"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -39,11 +38,10 @@
         <ComponentName Value="frmAlumno"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="45"/>
+        <TopLine Value="9"/>
         <CursorPos X="18" Y="55"/>
-        <UsageCount Value="60"/>
+        <UsageCount Value="61"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
@@ -56,7 +54,7 @@
         <EditorIndex Value="2"/>
         <TopLine Value="24"/>
         <CursorPos X="71" Y="8"/>
-        <UsageCount Value="60"/>
+        <UsageCount Value="61"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
@@ -66,12 +64,10 @@
         <ComponentName Value="DataModule1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="13"/>
         <CursorPos X="5" Y="26"/>
-        <UsageCount Value="44"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <UsageCount Value="46"/>
       </Unit5>
       <Unit6>
         <Filename Value="u_mesas_examenes.pas"/>
@@ -81,7 +77,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="43"/>
         <CursorPos X="26" Y="51"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="25"/>
       </Unit6>
       <Unit7>
         <Filename Value="u_frmalumnos.pas"/>
@@ -91,7 +87,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="24"/>
         <CursorPos X="41" Y="37"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="25"/>
       </Unit7>
       <Unit8>
         <Filename Value="View\u_alumno.pas"/>
@@ -99,14 +95,14 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="85" Y="53"/>
-        <UsageCount Value="19"/>
+        <UsageCount Value="18"/>
       </Unit8>
       <Unit9>
         <Filename Value="D:\LAZARUS\components\powerpdf_0.9.15_20170215\PdfJpegImage.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="30"/>
         <CursorPos X="44" Y="38"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit9>
       <Unit10>
@@ -115,14 +111,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1502"/>
         <CursorPos X="15" Y="1508"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit10>
       <Unit11>
         <Filename Value="D:\LAZARUS\lcl\include\customform.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2940"/>
         <CursorPos Y="2946"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit11>
       <Unit12>
         <Filename Value="Model\u_conexion.lfm"/>
@@ -132,127 +128,136 @@
         <UsageCount Value="8"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit12>
+      <Unit13>
+        <Filename Value="Model\u_conexion.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="16"/>
+        <CursorPos X="7" Y="30"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit13>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="54" Column="18" TopLine="38"/>
+        <Filename Value="View\u_frmalumnos.pas"/>
+        <Caret Line="24" Column="41" TopLine="15"/>
       </Position1>
       <Position2>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="63" Column="13" TopLine="47"/>
+        <Filename Value="View\u_frmalumnos.pas"/>
+        <Caret Line="40" Column="65" TopLine="35"/>
       </Position2>
       <Position3>
         <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="8" Column="100"/>
+        <Caret Line="54" Column="20" TopLine="22"/>
       </Position3>
       <Position4>
         <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="36" Column="35" TopLine="28"/>
+        <Caret Line="60" Column="15" TopLine="46"/>
       </Position4>
       <Position5>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="61" Column="20" TopLine="52"/>
-      </Position5>
-      <Position6>
-        <Filename Value="View\u_frmalumnos.pas"/>
-        <Caret Line="24" Column="41" TopLine="15"/>
-      </Position6>
-      <Position7>
-        <Filename Value="View\u_frmalumnos.pas"/>
-        <Caret Line="40" Column="65" TopLine="35"/>
-      </Position7>
-      <Position8>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="54" Column="20" TopLine="22"/>
-      </Position8>
-      <Position9>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="60" Column="15" TopLine="46"/>
-      </Position9>
-      <Position10>
         <Filename Value="View\u_frmmesas_examenes.pas"/>
         <Caret Line="52" Column="34" TopLine="35"/>
-      </Position10>
-      <Position11>
+      </Position5>
+      <Position6>
         <Filename Value="View\u_frmmesas_examenes.pas"/>
         <Caret Line="51" Column="34" TopLine="35"/>
-      </Position11>
-      <Position12>
+      </Position6>
+      <Position7>
         <Filename Value="View\u_frmmesas_examenes.pas"/>
         <Caret Line="50" Column="34" TopLine="34"/>
-      </Position12>
-      <Position13>
+      </Position7>
+      <Position8>
         <Filename Value="View\u_frmmesas_examenes.pas"/>
         <Caret Line="49" Column="34" TopLine="33"/>
-      </Position13>
-      <Position14>
+      </Position8>
+      <Position9>
         <Filename Value="View\u_frmmesas_examenes.pas"/>
         <Caret Line="48" Column="34" TopLine="32"/>
+      </Position9>
+      <Position10>
+        <Filename Value="View\u_frmalumno.pas"/>
+        <Caret Line="8" Column="108"/>
+      </Position10>
+      <Position11>
+        <Filename Value="View\u_frmalumno.pas"/>
+        <Caret Line="54" Column="17" TopLine="46"/>
+      </Position11>
+      <Position12>
+        <Filename Value="View\u_frmalumnos.pas"/>
+        <Caret Line="47" Column="38" TopLine="42"/>
+      </Position12>
+      <Position13>
+        <Filename Value="View\u_frmalumno.pas"/>
+        <Caret Line="60" Column="16" TopLine="47"/>
+      </Position13>
+      <Position14>
+        <Filename Value="View\u_frmalumno.pas"/>
+        <Caret Line="61" Column="18" TopLine="51"/>
       </Position14>
       <Position15>
         <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="8" Column="108"/>
+        <Caret Line="36" Column="25" TopLine="28"/>
       </Position15>
       <Position16>
         <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="54" Column="17" TopLine="46"/>
+        <Caret Line="13" Column="73"/>
       </Position16>
       <Position17>
-        <Filename Value="View\u_frmalumnos.pas"/>
-        <Caret Line="47" Column="38" TopLine="42"/>
+        <Filename Value="View\u_frmalumno.pas"/>
+        <Caret Line="60" Column="16" TopLine="51"/>
       </Position17>
       <Position18>
         <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="60" Column="16" TopLine="47"/>
+        <Caret Line="54" Column="21" TopLine="46"/>
       </Position18>
       <Position19>
         <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="61" Column="18" TopLine="51"/>
+        <Caret Line="63" Column="33" TopLine="54"/>
       </Position19>
       <Position20>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="36" Column="25" TopLine="28"/>
+        <Filename Value="View\u_frmmesas_examenes.pas"/>
+        <Caret Line="46" Column="37" TopLine="37"/>
       </Position20>
       <Position21>
         <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="13" Column="73"/>
+        <Caret Line="54" Column="33" TopLine="45"/>
       </Position21>
       <Position22>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="60" Column="16" TopLine="51"/>
+        <Filename Value="View\u_frmmesas_examenes.pas"/>
+        <Caret Line="47" Column="20" TopLine="39"/>
       </Position22>
       <Position23>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="54" Column="21" TopLine="46"/>
+        <Filename Value="View\u_frmmesas_examenes.pas"/>
+        <Caret Line="48" Column="46" TopLine="39"/>
       </Position23>
       <Position24>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="63" Column="33" TopLine="54"/>
+        <Filename Value="View\u_frmmesas_examenes.pas"/>
+        <Caret Line="47" Column="52" TopLine="39"/>
       </Position24>
       <Position25>
         <Filename Value="View\u_frmmesas_examenes.pas"/>
-        <Caret Line="46" Column="37" TopLine="37"/>
+        <Caret Line="49" Column="4" TopLine="39"/>
       </Position25>
       <Position26>
-        <Filename Value="View\u_frmalumno.pas"/>
-        <Caret Line="54" Column="33" TopLine="45"/>
+        <Filename Value="Model\u_conexion.pas"/>
+        <Caret Line="11" Column="20"/>
       </Position26>
       <Position27>
-        <Filename Value="View\u_frmmesas_examenes.pas"/>
-        <Caret Line="47" Column="20" TopLine="39"/>
+        <Filename Value="Model\u_conexion.pas"/>
+        <Caret Line="17" Column="51"/>
       </Position27>
       <Position28>
-        <Filename Value="View\u_frmmesas_examenes.pas"/>
-        <Caret Line="48" Column="46" TopLine="39"/>
+        <Filename Value="Model\u_conexion.pas"/>
+        <Caret Line="27" Column="21" TopLine="19"/>
       </Position28>
       <Position29>
-        <Filename Value="View\u_frmmesas_examenes.pas"/>
-        <Caret Line="47" Column="52" TopLine="39"/>
+        <Filename Value="Model\u_conexion.pas"/>
+        <Caret Line="29" Column="10" TopLine="19"/>
       </Position29>
       <Position30>
-        <Filename Value="View\u_frmmesas_examenes.pas"/>
-        <Caret Line="49" Column="4" TopLine="39"/>
+        <Filename Value="Model\u_conexion.pas"/>
+        <Caret Line="27" Column="21" TopLine="16"/>
       </Position30>
     </JumpHistory>
     <RunParams>
